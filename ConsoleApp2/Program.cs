@@ -10,6 +10,13 @@ namespace ConsoleApp2
     {
         static void Main(string[] args)
         {
+            List<int> getallen = new List<int>();
+
+            getallen.Add(1);
+            getallen.Add(3);
+
+            Console.WriteLine("nummers : {0} " , getallen);
         }
+
     }
 }
